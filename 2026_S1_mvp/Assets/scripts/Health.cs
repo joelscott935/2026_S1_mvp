@@ -26,11 +26,10 @@ public class Health : MonoBehaviour
             Debug.Log("GAME OVER!!!");
 
 
-            GetComponent<PlayerController>().enabled = false;
+            GetComponent<FirstPersonController>().enabled = false;
         }
 
 
     }
 
 }
-       
