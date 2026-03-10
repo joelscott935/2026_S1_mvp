@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 0
     width: 1920
     height: 36
   m_SerializedDataModeController:
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 633
+    y: 578
     width: 1465
     height: 353
   m_SerializedDataModeController:
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/materials
+    - Assets/scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/materials
+  - Assets/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\30084388\Documents\GitHub\2026_S1_mvp\2026_S1_mvp
   m_LockTracker:
@@ -613,13 +613,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 45936
+    - m_Data: 46010
     m_LastClickedID:
-      m_Data: 45936
+      m_Data: 46010
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 45650
-    - m_Data: 1000000000
+    - m_Data: 45720
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,7 +651,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 45650
+    - m_Data: 45720
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -680,8 +679,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -10764
-    m_LastClickedInstanceID: -10764
+    - m_Data: 45640
+    m_LastClickedInstanceID: 45640
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -734,8 +733,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1466
-    y: 79
+    x: 1467
+    y: 24
     width: 453
     height: 907
   m_SerializedDataModeController:
@@ -786,7 +785,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 362
     height: 528
   m_SerializedDataModeController:
@@ -805,14 +804,11 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: -10764
+      m_SelectedIDs: []
       m_LastClickedID:
-        m_Data: -10764
+        m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -6002
       - m_Data: -1294
-      - m_Data: 45576
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -859,8 +855,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 363
-    y: 79
+    x: 364
+    y: 24
     width: 1101
     height: 528
   m_SerializedDataModeController:
@@ -1265,9 +1261,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.48790434, y: 1.8399856, z: -1.8519634}
+    m_Target: {x: -0.7595621, y: 1.3883173, z: -4.1290917}
     speed: 2
-    m_Value: {x: 0.48790434, y: 1.8399856, z: -1.8519634}
+    m_Value: {x: -0.7595621, y: 1.3883173, z: -4.1290917}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1313,13 +1309,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.1747198, y: 0.785482, z: -0.25621712, w: 0.53563184}
+    m_Target: {x: 0.08992951, y: 0.8610052, z: -0.16362937, w: 0.4731499}
     speed: 2
-    m_Value: {x: 0.17433026, y: 0.786262, z: -0.25647154, w: 0.53443766}
+    m_Value: {x: 0.08992951, y: 0.8610051, z: -0.16362937, w: 0.47314987}
   m_Size:
-    m_Target: 2.6027827
+    m_Target: 3.6939237
     speed: 2
-    m_Value: 2.6027827
+    m_Value: 3.6939237
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1424,7 +1420,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1477,10 +1473,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 633
+    width: 1465
+    height: 353
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

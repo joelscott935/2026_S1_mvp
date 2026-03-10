@@ -7,6 +7,10 @@ public class Hazard : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Ouch! Damage is: " + damage);  
+
+        if (other.tag ==  "player" )
+        {
+            other.GetComponent<Health>().TakeDamage(damage);
+        }
     }
 }

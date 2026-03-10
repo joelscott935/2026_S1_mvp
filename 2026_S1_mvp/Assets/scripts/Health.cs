@@ -2,15 +2,35 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float maxHealth = 100;
+    public float currentHealth = 0;
+
     void Start()
     {
-        
+        currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    public void TakeDamage(float damage)
     {
-        
+        Debug.Log("Ouchie!!");
+
+        currentHealth = currentHealth - damage;
+
+        Debug.Log("My health now is: " + currentHealth);
+
+
+        if (currentHealth <= 0)
+        {
+            Debug.Log("GAME OVER!!!");
+
+
+            GetComponent<PlayerController>().enabled = false;
+        }
+
+
     }
+
 }
+       
